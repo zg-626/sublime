@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Default.sublime-theme",
+	// Display file encoding in the status bar
+	"show_encoding": true,
+	// Display line endings in the status bar
+	"show_line_endings": true,
+	"update_check": true,
+}

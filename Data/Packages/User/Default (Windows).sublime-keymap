@@ -1,0 +1,10 @@
+[
+    {
+        "keys": ["alt+t"],
+        "command": "file_header_add_header",
+        "args":{
+            "paths": []
+        }   
+    },
+    { "keys": ["ctrl+q"], "command": "alignment" },
+]

@@ -1,0 +1,17 @@
+{
+    "jsdocs_extra_tags":[      
+        "@DESC []",
+        "@DateTime {{date}}",
+        "@Author 覔",
+    ],
+    "jsdocs_function_description": false,
+    "alignment_chars": ["*","="],
+
+	// If the following character is matched for alignment, insert a space
+	// before it in the final alignment
+	"alignment_space_chars": ["*","="],
+	
+    "alignment_prefix_chars" : [
+		"+", "-", "&", "|", "<", ">", "!", "~", "%", "/", "*", "."
+	] 
+}

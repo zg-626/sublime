@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "D:\Program Files\SublimeText_4126_64bit_Green\Lib\python33\sublime_plugin.py", line 944, in on_activated_async
+    run_view_callbacks('on_activated_async', view_id)
+  File "D:\Program Files\SublimeText_4126_64bit_Green\Lib\python33\sublime_plugin.py", line 708, in run_view_callbacks
+    callback(v, *args)
+  File "D:\Program Files\SublimeText_4126_64bit_Green\Lib\python33\sublime_plugin.py", line 190, in exception_handler
+    return event_handler(*args)
+  File "D:\Program Files\SublimeText_4126_64bit_Green\Data\Installed Packages\SublimeLinter.sublime-package\highlight_view.py", line 823, in on_activated_async
+    'current_sel': get_current_sel(active_view)
+  File "D:\Program Files\SublimeText_4126_64bit_Green\Data\Installed Packages\SublimeLinter.sublime-package\highlight_view.py", line 958, in get_current_sel
+    return tuple(s for s in view.sel())
+  File "D:\Program Files\SublimeText_4126_64bit_Green\Data\Installed Packages\SublimeLinter.sublime-package\highlight_view.py", line 958, in <genexpr>
+    return tuple(s for s in view.sel())
+  File "D:\Program Files\SublimeText_4126_64bit_Green\Lib\python33\sublime.py", line 1043, in __getitem__
+    if r.a == -1:
+AttributeError: 'NoneType' object has no attribute 'a'

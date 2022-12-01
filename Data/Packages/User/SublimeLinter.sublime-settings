@@ -1,0 +1,6 @@
+// SublimeLinter Settings - User
+{
+	"paths": {
+	    "windows": ["D:\\phpstudy_pro\\Extensions\\php\\php7.4.3nts"]
+	},
+}
